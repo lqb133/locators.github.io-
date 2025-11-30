@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Locator Product Page - Group 4</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #2b7cff;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .product-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+    .product-media {
+        display: flex;
+        flex-direction: column;
+        width: 150px; /* Media size */
+        flex-shrink: 0;
+    }
+    .product-media img,
+    .product-media video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product-media video {
+        margin-bottom: 10px;
+    }
+    .product-info {
+        flex-grow: 1;
+    }
+    .product-info h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+    .product-info p {
+      margin: 8px 0;
+    }
+    .btn-buy {
+      display: inline-block;
+      margin-top: 10px;
+      background: #2b7cff;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn-buy:hover {
+        background: #1c5fd1;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>Product Locator</header>
+  <div class="container">
+    <div class="product-card">
+      
+      <div class="product-media">
+        <video 
+            src="https://images-ext-1.discordapp.net/external/_iGfJwdQs8AkjzUCmrprn2FYiwwBy6_3M2JBJYAiE7E/https/media.tenor.com/SIUNC-c2MBoAAAPo/downsign-up.mp4" 
+            controls 
+            loop 
+            muted 
+            alt="Product demonstration video"
+        ></video>
+        
+        <img 
+            src="https://media.discordapp.net/attachments/1367406363579383898/1444675126460284959/6378d831-9175-4c44-9b40-ffca685d74e2.png?ex=692d920e&is=692c408e&hm=1db1b5179d1b8ac9b3eb8606ca692e119a5cfb66f65ba9cfb59a6d08d3d9419f&=&format=webp&quality=lossless&width=404&height=607" 
+            alt="Product secondary image" 
+        />
+      </div>
+      
+      <div class="product-info">
+        <p><strong>Benefit:</strong> A locator device that helps prevent kidnapping and tracks real-time location.</p>
+        <h2>Product Name</h2>
+        <p>A brief description of the product. You can change the image, content, price, etc.</p>
+        
+        <a class="btn-buy" href="page2.html">View Details</a>
+      </div>
+    </div>
+  </div>
+  <footer>&copy; 2025 - Demo Product Website</footer>
+</body>
+</html>
