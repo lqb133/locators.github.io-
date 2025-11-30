@@ -1,2 +1,2 @@
-# locators.github.io-
+# locators.github.io
 Tổ 4
